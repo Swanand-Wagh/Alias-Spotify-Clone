@@ -6,7 +6,8 @@
   background-color: black;
 }
 .login > img {
-  width: 100%;
+  width: 55%;
+  height: 50%;
 }
 .login > a {
   text-decoration: none;
@@ -14,5 +15,7 @@
   border-radius: 99px;
   background-color: #1db954;
   font-weight: 700;
+  font-style: italic;
+  font-family: cursive;
   color: white;
 }
