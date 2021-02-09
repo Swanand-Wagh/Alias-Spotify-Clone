@@ -6,8 +6,11 @@ function Login() {
   return (
     <>
       <div className="login">
-        <img src={process.env.PUBLIC_URL + "/SpotifyLogo.svg"} alt="" />
-        <a href={loginUrl}>LOGIN TO SPOTIFY CLONE</a>
+        <img
+          src={process.env.PUBLIC_URL + "/SpotifyLogo.svg"}
+          alt="Spotify Logo"
+        />
+        <a href={loginUrl}>LOGIN TO SPOTIFY CLONE </a>
       </div>
     </>
   );
