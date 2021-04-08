@@ -1,6 +1,6 @@
 import React from "react";
 
-function PLayer() {
+function Player() {
   return (
     <>
       <h1>hello man 🚀</h1>
@@ -8,4 +8,4 @@ function PLayer() {
   );
 }
 
-export default PLayer;
+export default Player;
