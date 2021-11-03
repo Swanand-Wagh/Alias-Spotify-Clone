@@ -2,7 +2,7 @@ import React from "react";
 import "./Login.css";
 import { loginUrl } from "./spotify";
 
-function Login() {
+const Login = () => {
   return (
     <>
       <div className="login">
@@ -14,6 +14,6 @@ function Login() {
       </div>
     </>
   );
-}
+};
 
 export default Login;

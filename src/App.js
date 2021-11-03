@@ -6,7 +6,7 @@ import Player from "./Player";
 
 const spotify = new SpotifyWebApi(); // connect spotify with react
 
-function App() {
+const App = () => {
   const [token, setToken] = useState(null);
 
   // fetch token from url, if token doesn't exist render Login Component
@@ -19,13 +19,13 @@ function App() {
       setToken(_token);
       spotify.setAccessToken(_token);
     }
-  }, []);
+  }, []); 
 
   return (
     <>
       <div>{token ? <Player /> : <Login />}</div>
     </>
   );
-}
+};
 
 export default App;
