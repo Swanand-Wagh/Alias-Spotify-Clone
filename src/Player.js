@@ -1,9 +1,19 @@
 import React from "react";
+import "./Player.css";
+import Sidebar from "./components/Sidebar";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 const Player = () => {
   return (
     <>
-      <h1>hello man 🚀</h1>
+      <div className="player">
+        <div className="player_body">
+          <Sidebar />
+          <Body />
+        </div>
+        <Footer />
+      </div>
     </>
   );
 };
